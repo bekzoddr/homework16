@@ -5,7 +5,7 @@ import navLogo from "../../assets/images/nav__logo.svg";
 function Navbar() {
   return (
     <nav>
-      <div className="sub__nav">
+      <div className="sub__nav container">
         <div className="language">
           <h4>
             EN <FiChevronDown />
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
       </div>
       <hr />
-      <div className="navbar">
+      <div className="navbar container">
         <div className="logo">
           <img src={navLogo} alt="navLogo" />
         </div>
